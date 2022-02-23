@@ -1,0 +1,6 @@
+build: helloworld.c
+	@gcc -o prog helloworld.c
+	@./prog
+
+clean:
+	@rm -f prog

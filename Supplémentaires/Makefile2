@@ -1,0 +1,5 @@
+make: main.c module_a.c module_b.c
+	gcc -o prog main.c module_a.c module_b.c
+
+clean:
+	rm -f prog
